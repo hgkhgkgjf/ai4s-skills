@@ -4,6 +4,19 @@
 
 **Open-source [Agent Skills](https://docs.claude.com/en/docs/claude-code/skills) for AI for Science** — turn a research direction or a concrete topic into topic exploration, literature surveys, runnable experiments, publication-grade papers & integrity audits, driven by any coding agent.
 
+<!-- Keep these links. Translations will automatically update with the README. -->
+<p align="center">
+  <a href="https://zdoc.app/de/ai4s-research/ai4s-skills">Deutsch</a> |
+  <a href="https://zdoc.app/en/ai4s-research/ai4s-skills">English</a> |
+  <a href="https://zdoc.app/es/ai4s-research/ai4s-skills">Español</a> |
+  <a href="https://zdoc.app/fr/ai4s-research/ai4s-skills">français</a> |
+  <a href="https://zdoc.app/ja/ai4s-research/ai4s-skills">日本語</a> |
+  <a href="https://zdoc.app/ko/ai4s-research/ai4s-skills">한국어</a> |
+  <a href="https://zdoc.app/pt/ai4s-research/ai4s-skills">Português</a> |
+  <a href="https://zdoc.app/ru/ai4s-research/ai4s-skills">Русский</a> |
+  <a href="https://zdoc.app/zh/ai4s-research/ai4s-skills">中文</a>
+</p>
+
 <p>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
   <img src="https://img.shields.io/badge/skills-7-success" alt="7 skills">
