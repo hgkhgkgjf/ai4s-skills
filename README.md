@@ -84,18 +84,22 @@ code-level coupling.
 
 ### With Claude Code
 
-Copy a skill into your project (or your global skills dir) and ask for it:
+Clone the repo and run the installer:
 
 ```bash
-# project-local
-mkdir -p .claude/skills
-cp -R path/to/ai4s-skills/skills/literature-survey .claude/skills/
-
-# then, in Claude Code:
-#   "Use the literature-survey skill to write a survey on <your topic>."
+git clone https://github.com/ai4s-research/ai4s-skills
+cd ai4s-skills
+./install.sh                              # all skills → ~/.claude/skills
+# ./install.sh literature-survey          # or just specific ones
+# SKILLS_DIR=.claude/skills ./install.sh  # or into the current project
 ```
 
-Or drop the whole set into `~/.claude/skills/` to make all seven available everywhere.
+Then, in Claude Code:
+
+> Use the literature-survey skill to write a survey on \<your topic\>.
+
+Prefer to do it by hand? A skill is just a folder — copy any `skills/<name>/` into
+`~/.claude/skills/` (global) or `<project>/.claude/skills/` (project-local).
 
 ### With Cursor / Codex / Aider / any coding agent
 
