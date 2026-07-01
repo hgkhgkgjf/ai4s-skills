@@ -84,14 +84,15 @@ code-level coupling.
 
 ### With Claude Code
 
-Clone the repo and run the installer:
+Clone the repo, then run the installer **from the project** you want the skills in:
 
 ```bash
 git clone https://github.com/ai4s-research/ai4s-skills
-cd ai4s-skills
-./install.sh                              # all skills → ~/.claude/skills
-# ./install.sh literature-survey          # or just specific ones
-# SKILLS_DIR=.claude/skills ./install.sh  # or into the current project
+
+cd /path/to/your-project
+/path/to/ai4s-skills/install.sh            # all skills → ./.claude/skills (this project)
+# /path/to/ai4s-skills/install.sh paper-writer                 # or just specific ones
+# SKILLS_DIR=~/.claude/skills /path/to/ai4s-skills/install.sh  # install globally instead
 ```
 
 Then, in Claude Code:
